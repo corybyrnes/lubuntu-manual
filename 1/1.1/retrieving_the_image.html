@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Chapter 1.1: Retrieving the image &mdash; Lubuntu Manual beta1 documentation</title>
+    <title>Chapter 1.1: Retrieving the image &#8212; Lubuntu Manual beta1 documentation</title>
     
     <link rel="stylesheet" href="../../static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../../static/pygments.css" type="text/css" />
@@ -83,10 +83,18 @@
       aria-labelledby="dLabelLocalToc"><ul>
 <li><a class="reference internal" href="#">Chapter 1.1: Retrieving the image</a><ul>
 <li><a class="reference internal" href="#choosing-between-alternate-and-desktop">Choosing between alternate and desktop</a></li>
+<li><a class="reference internal" href="#architectures">Architectures</a><ul>
 <li><a class="reference internal" href="#amd64">amd64</a></li>
 <li><a class="reference internal" href="#i386">i386</a></li>
 <li><a class="reference internal" href="#powerpc">PowerPC</a></li>
-<li><a class="reference internal" href="#ways-to-download-the-image">Ways to download the image</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#ways-to-download-the-image">Ways to download the image</a><ul>
+<li><a class="reference internal" href="#downloading-the-image-via-http">Downloading the image via HTTP</a></li>
+<li><a class="reference internal" href="#downloading-the-image-via-bittorrent">Downloading the image via BitTorrent</a></li>
+<li><a class="reference internal" href="#downloading-the-image-via-zsync">Downloading the image via zsync</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -157,21 +165,24 @@ The alternate installer does not provide a live session so therefore it uses les
 </dd>
 </dl>
 </div>
+<div class="section" id="architectures">
+<h2>Architectures<a class="headerlink" href="#architectures" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="amd64">
-<h2>amd64<a class="headerlink" href="#amd64" title="Permalink to this headline">¶</a></h2>
+<h3>amd64<a class="headerlink" href="#amd64" title="Permalink to this headline">¶</a></h3>
 <p>The amd64 image will work with most modern processors. The best way to determine if your computer has an amd64 or
 i386 processor is to boot the image. It&#8217;s the only way that you will be able to know for sure what architecture your
 computer is. amd64 computers are backwards compatible with i386 images. You may want to use an i386 image instead if
 you have an amd64 processor with very low amounts of RAM.</p>
 </div>
 <div class="section" id="i386">
-<h2>i386<a class="headerlink" href="#i386" title="Permalink to this headline">¶</a></h2>
+<h3>i386<a class="headerlink" href="#i386" title="Permalink to this headline">¶</a></h3>
 <p>This is the original 32-bit architecture that will work best on computers with very low amounts of RAM.</p>
 </div>
 <div class="section" id="powerpc">
-<h2>PowerPC<a class="headerlink" href="#powerpc" title="Permalink to this headline">¶</a></h2>
+<h3>PowerPC<a class="headerlink" href="#powerpc" title="Permalink to this headline">¶</a></h3>
 <p>PowerPC is for older Macintosh hardware from before 2006 and IBM OpenPower systems. While we don&#8217;t release PowerPC
 for non-LTS releases (like 16.10), you can download a 16.04 image if you wish and upgrade it.</p>
+</div>
 </div>
 <div class="section" id="ways-to-download-the-image">
 <h2>Ways to download the image<a class="headerlink" href="#ways-to-download-the-image" title="Permalink to this headline">¶</a></h2>
@@ -180,12 +191,66 @@ for non-LTS releases (like 16.10), you can download a 16.04 image if you wish an
 <dt>There are several ways to download the Lubuntu image:</dt>
 <dd><ul class="first last simple">
 <li>HTTP download (from your web browser or terminal)</li>
-<li>BitTorrent (from a BitTorrent client such as Transmission)</li>
-<li>zsync (from the terminal, recommended)</li>
+<li>BitTorrent (from a BitTorrent client such as Transmission, recommended for Windows and Mac OS X users)</li>
+<li>zsync (from the terminal, recommended for Linux users)</li>
 </ul>
 </dd>
 </dl>
 <p>You can also download the image via Jigdo but we will not cover that in this manual.</p>
+<div class="section" id="downloading-the-image-via-http">
+<h3>Downloading the image via HTTP<a class="headerlink" href="#downloading-the-image-via-http" title="Permalink to this headline">¶</a></h3>
+<p><em>We don&#8217;t recommend using this method as it&#8217;s often slower and less efficient than the other methods.</em></p>
+<p>To download the image via HTTP, you can either navigate to the <a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/">Ubuntu cdimage server</a> and select the ISO file you would
+like to download, or use the direct links below.</p>
+<dl class="docutils">
+<dt>Direct links:</dt>
+<dd><ul class="first last simple">
+<li>amd64 (<a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/lubuntu-16.10-desktop-amd64.iso">desktop</a>, <a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/lubuntu-16.10-alternate-amd64.iso">alternate</a>)</li>
+<li>i386 (<a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/lubuntu-16.10-desktop-i386.iso">desktop</a>, <a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/lubuntu-16.10-alternate-i386.iso">alternate</a>)</li>
+</ul>
+</dd>
+</dl>
+<p>After you download the image, you <strong>must</strong> verify it. There is <a class="reference external" href="https://help.ubuntu.com/community/VerifyIsoHowto">a helpful page on the Ubuntu Community Help wiki</a> that
+can guide you in the right direction.</p>
+</div>
+<div class="section" id="downloading-the-image-via-bittorrent">
+<h3>Downloading the image via BitTorrent<a class="headerlink" href="#downloading-the-image-via-bittorrent" title="Permalink to this headline">¶</a></h3>
+<p>Instead of downloading the image from one server, you can &#8220;torrent&#8221; the image, or download it from multiple sources
+instead of just one. This is often faster and saves the bandwidth of the Ubuntu cdimage servers. If you would like to
+learn more about BitTorrent, read <a class="reference external" href="https://en.wikipedia.org/wiki/BitTorrent">the Wikipedia page on the subject</a>.</p>
+<p>In order to torrent the file, you need a BitTorrent client. We recommend <a class="reference external" href="https://transmissionbt.com/">Transmission</a>, an Open Source BitTorrent
+client. Since Transmission only provides clients for Linux and Mac OS X, we recommend <a class="reference external" href="http://www.utorrent.com/">uTorrent</a> for Windows users.</p>
+<p>You first need to download the seed files. They are available on the <a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/">Ubuntu cdimage server</a>, or you can use the direct
+links provided below.</p>
+<dl class="docutils">
+<dt>Direct links:</dt>
+<dd><ul class="first last simple">
+<li>amd64 (<a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/lubuntu-16.10-desktop-amd64.iso.torrent">desktop</a>, <a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/lubuntu-16.10-alternate-amd64.iso.torrent">alternate</a>)</li>
+<li>i386 (<a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/lubuntu-16.10-desktop-i386.iso.torrent">desktop</a>, <a class="reference external" href="http://cdimage.ubuntu.com/lubuntu/releases/16.10/release/lubuntu-16.10-alternate-i386.iso.torrent">alternate</a>)</li>
+</ul>
+</dd>
+</dl>
+<p>After you have downloaded the link you need, open it in your BitTorrent client. This will download the image. After
+this is done, we recommend that you leave your BitTorrent client open so you can seed this image for other people.</p>
+</div>
+<div class="section" id="downloading-the-image-via-zsync">
+<h3>Downloading the image via zsync<a class="headerlink" href="#downloading-the-image-via-zsync" title="Permalink to this headline">¶</a></h3>
+<p>zsync is a convenient application that will automatically verify the checksum of the image once downloaded. The
+Lubuntu team uses this to download daily images as it will download the changes since the last image was released.</p>
+<p>In order to use zsync, you need to install it. Since this is a Linux-only client, you can get it from your
+distribution&#8217;s package repository.</p>
+<p>If you are running Debian or Ubuntu (or a distribution based off of either), run the following command in a terminal:</p>
+<blockquote>
+<div>sudo apt install zsync</div></blockquote>
+<p>If you are running Fedora (or a distribution based off of it), run the following command in a terminal:</p>
+<blockquote>
+<div>sudo dnf install zsync</div></blockquote>
+<p>If you are running Arch (or a distribution based off of it), run the following command in a terminal:</p>
+<blockquote>
+<div>sudo pacman -S zsync</div></blockquote>
+<p>If you are running another distribution, you can find the source code <a class="reference external" href="http://zsync.moria.org.uk/downloads">here</a>.</p>
+<p><strong>You have now downloaded the image successfully. Please continue to Chapter 1.2.</strong></p>
+</div>
 </div>
 </div>
 
@@ -202,7 +267,7 @@ for non-LTS releases (like 16.10), you can download a 16.04 image if you wish an
     </p>
     <p>
         &copy; Copyright 2016, Lubuntu Team.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.5.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.<br/>
     </p>
   </div>
 </footer>
