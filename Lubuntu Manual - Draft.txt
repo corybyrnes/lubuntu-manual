@@ -1,6 +1,645 @@
-Lubuntu Chapter Files
+Table of Contents
+
+Introduction
+
+What is Lubuntu?
+
+Thanks for using Lubuntu
+
+Authors
+
+Chapter 1: Installing Lubuntu
+
+Short blurb
+
+Chapter 1.1: Retrieving the image
+
+Images we offer
+
+Download methods available
+
+Verifying the image
+
+Chapter 1.2: Booting the image
+
+Burning the image somewhere
+
+Virtualization
+
+BIOS
+
+Secure boot
+
+Boot options
+
+Chapter 1.3: Installation process
+
+Complete installation process
+
+Different installation options
+
+Rebooting
+
+Chapter 2: Upgrading from Lubuntu 16.04 LTS
+
+Short blurb
+
+Chapter 2.1: do-release-upgrade
+
+Upgrading via do-release-upgrade
+
+Chapter 2.2: Software Updates
+
+Upgrade via the GUI
+
+
+
+Cory To Begin Rough Draft Starting Here
+
+
 
 Chapter 3: Applications
+
 List of default applications
 
+
+
 Chapter 3.1: Internet applications
+
+List of Internet applications
+
+Short blurb
+
+
+
+Chapter 3.1.1: Firefox
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.1.2: Pidgin
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.1.3: Sylpheed
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.1.4: Transmission
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.2: Office applications
+
+List of Office applications
+
+Short blurb
+
+
+
+Chapter 3.2.1: AbiWord
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.2.2: Gnumeric
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.2.3: Document Viewer
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.2.4: Simple Scan
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3: Accessories
+
+List of Accessories
+
+Short blurb
+
+
+
+Chapter 3.3.1: mtPaint
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.2: PCManFM
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.3: Galculator
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.4: Leafpad
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.5: Screenshot
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.6: Xpad
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.7: Archive Manager
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.8: Character Map
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.9: GNOME MPlayer
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.10: PulseAudio Volume Control
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 3.3.11: Xfburn
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 4: System Configuration, Maintenance, and Administration
+
+Short blurb
+
+
+
+Chapter 4.1: Software Updates
+
+Short blurb
+
+
+
+Chapter 4.1.1: Software Updater/Software & Updates
+
+Explain how to use and configure Software Updater as well as Software & Updates and the advantages/disadvantages of using them
+
+
+
+Chapter 4.1.2: GDebi Package Installer
+
+Explain how to use and configure the GDebi Package Installer and the advantages/disadvantages of using it
+
+
+
+Chapter 4.1.2: Synaptic Package Manager
+
+Explain how to use and configure the Synaptic Package Manager and the advantages/disadvantages of using it
+
+
+
+Chapter 4.1.3: GNOME Software
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 4.2: Tweaking your desktop
+
+Short blurb
+
+
+
+Chapter 4.2.1: Openbox Configuration Manager
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 4.2.2: The Customize look and feel tool
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.2.3: Monitor settings
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.2.4: Power Manager
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 4.2.5: XScreenSaver
+
+Description
+
+Usage and screenshots
+
+Version
+
+How to launch
+
+
+
+Chapter 4.2.6: Light Locker Settings
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.2.7: Time and Date
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.2.8: LXPanel
+
+Description
+
+Usage and screenshots
+
+How to configure
+
+
+
+
+
+Chapter 4.2.9: Desktop Preferences
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.2.10: Language Support
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.2.11: Keyboard and Mouse
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.2.12: LXSession configuration
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.2.13: User Management
+
+How to manage users through the graphical application and the terminal
+
+
+
+Chapter 4.3: Advanced
+
+Short blurb
+
+
+
+Chapter 4.3.1: Network/Network connections
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+How to configure
+
+
+
+Chapter 4.3.2: GNOME Disks
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 4.3.3: Fcitx Configuration
+
+Description
+
+Usage and screenshots
+
+How to launch
+
+
+
+Chapter 5: Contributing to Lubuntu
+
+Short blurb and general contact info
+
+
+
+Chapter 5.1: Development Team
+
+How to get involved with the development team
+
+
+
+Chapter 5.2: Quality Assurance Team
+
+How to get involved with the QA team and basic documentation for doing QA related tasks
+
+
+
+Chapter 5.3: Communications Team
+
+How to get involved with the communications team
+
+
+
+Chapter 5.4: Artwork Team
+
+How to get involved with the artwork team
+
+
+
+Chapter 5.5: IRC Team
+
+How to get involved with the IRC team
+
+
+
+Chapter 5.6: Global Team
+
+How to get involved with the Global team
+
+
+
+Chapter 5.7: Documentation Team
+
+How to get involved with the documentation team and contributing to this book
+
+
+
+Chapter 6: Getting Help and Reporting Problems
+
+Short blurb and basic information
+
+
+
+Chapter 6.1: Mailing lists
+
+How to send emails to the mailing lists
+
+Mailing list conduct
+
+
+
+Chapter 6.2: IRC
+
+How to use IRC
+
+IRC conduct
+
+
+
+Chapter 6.3: Other methods of
+
+Other ways you can get help with
+
+support
+
+any problem you are having
+
+
+
+Chapter 6.4: Reporting bugs
+
+Reporting bugs properly
+
+Bug statuses
+
+
+
+Appendix A: Using the Terminal
+
+Explain how to use basic terminal commands and where to learn more about the terminal
+
+
+
+Appendix B: History of Lubuntu
+
+Where did Lubuntu come from?
+
+When was it founded?
+
+
+
+Appendix C: LXQt
+
+Explain what LXQt is
+
+What’s happening with it?
