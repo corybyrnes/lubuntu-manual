@@ -1,3 +1,6 @@
 Lubuntu Chapter Files
 
-Chapter 2
+Chapter 3: Applications
+List of default applications
+
+Chapter 3.1: Internet applications
